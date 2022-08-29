@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.h1 {
+    display: inline-block;
+    border: 2px #d11f1f solid;
+    margin: 15px auto;
+    background-image: linear-gradient(to left, red, gray);
+}
