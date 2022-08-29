@@ -1,11 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.h1 {
-    display: inline-block;
-    border: 2px #d11f1f solid;
+div {
     margin: 15px auto;
-    background-image: linear-gradient(to left, red, gray);
-}
+    width: 100px; height: 100px;
+    transition: all 2s;       
+ }
+
+ div:hover {
+    height: 200px; width: 200px;
+    padding: 20px;
+    background-color: #4d3272;
+ }
+ 
